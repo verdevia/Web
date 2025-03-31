@@ -37,6 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "шість": 6, "сім": 7, "вісім": 8, "дев'ять": 9, "десять": 10
     };
 
+    console.log(typeof(numberWords));
+
     document.querySelectorAll(".num").forEach(paragraph => {
         paragraph.addEventListener("click", function() {
             let text = this.textContent.trim().toLowerCase();
